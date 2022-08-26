@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rasm{
+
+    width: 200px;
+    height: 200px;
+    margin: 200px 500px;
+}
+.rasm:hover{
+    transition: 1.5s;
+    box-shadow: 200px 0px 10px 0px green,
+    200px 200px 10px 0px,
+    0px 200px 10px 0px brown,
+    200px -200px 10px 0px lime,
+    -200px 0px 10px 0px pink,
+    0px -200px 10px 0px blue,
+    -200px 200px 10px 0px red,
+    -200px -200px 10px 0px yellow
+    
+}

@@ -1,0 +1,425 @@
+* {
+  padding: 0;
+  margin: 0;
+ 
+}
+.container {
+  max-width: 1440px;
+  padding: 0 157px;
+  margin: 0 auto;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(116, 108, 108);
+}
+
+.header__item {
+  display: inline-block;
+  margin: 0px 30px;
+}
+.header__title {
+  margin-left: 266px;
+  margin-top: -50px;
+}
+.header__btn {
+  width: 169px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #d23166;
+  border: none;
+  color: beige;
+}
+.sp__btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -35px;
+}
+/*header end*/
+
+.fil_right {
+  width: 100%;
+  height: 364px;
+  margin-top: 60px;
+}
+.fil_inside {
+  margin-top: 100px;
+  display: flex;
+}
+.fil_str {
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.fil_h2 {
+  font-family: "Fredoka One";
+  font-size: 33px;
+  margin-top: 5px;
+}
+.fil_p {
+  font-family: Hind Madurai;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.fil_btn {
+  width: 165px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 50px;
+  border: none;
+  background-color: #d23166;
+  color: azure;
+}
+.span_ice {
+  color: #d23166;
+}
+.page_one {
+  background: #f2ceda;
+}
+
+.cards {
+  margin-top: 100px;
+}
+
+.card_title {
+  width: 240px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+}
+.card_title:hover {
+  scale: 1.1;
+  background: #d0dfec;
+}
+.cards_item {
+  display: flex;
+  gap: 15px;
+}
+.card_img {
+  margin-left: 92px;
+  margin-top: 20px;
+}
+
+.card_h2 {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-bottom: 18px;
+  font-family: "Hind Madurai";
+}
+.card_p {
+  text-align: center;
+  font-family: "Hind Madurai";
+  font-size: 14px;
+}
+
+.brown_sugar {
+  background-color: #f2ceda;
+  margin-top: 100px;
+  display: flex;
+}
+.brown_right {
+  width: 442px;
+  height: 256px;
+
+  margin-top: 120px;
+}
+
+.brown_h2 {
+  font-family: "Hind Madurai";
+  font-size: 50.2px;
+  font-weight: 600;
+  line-height: 49px;
+  margin-top: 18px;
+}
+.brown_p {
+  font-family: "Roboto";
+  font-size: 14px;
+  color: black;
+  opacity: 0.6;
+  margin-top: 16px;
+}
+.brown_btn {
+  width: 165px;
+  height: 40px;
+  background-color: #d23166;
+  color: azure;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+}
+.produc_title{
+  font-family: 'Roboto';
+}
+
+.produc_h2 {
+  margin-top: 100px;
+  margin-bottom: 64px;
+  text-align: center;
+  font-family: 'Hind Madurai';
+}
+.produc_item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.produc_one_left {
+  width: 400px;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.produc_one {
+  display: flex;
+  margin-top: 110px;
+}
+.produc_one_h3 {
+  font-family: "Hind Madurai";
+  font-size: 26px;
+  margin-bottom: 11px;
+}
+.produc_one_p {
+  font-family: "Roboto";
+  font-size: 13px;
+  margin-bottom: 34px;
+  color: rgb(121, 132, 132);
+}
+.produc_one_str {
+  font-family: "Hind Madurai";
+  font-size: 26px;
+}
+.produc_one_spn {
+  display: flex;
+}
+.produc_one_p2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.produc_one_btn {
+  width: 165px;
+  height: 40px;
+  background-color: #d23166;
+  border: none;
+  border-radius: 5px;
+  color: azure;
+  margin-top: 16px;
+}
+.produc_four {
+  display: flex;
+  margin-top: 50px;
+}
+.produc_one_left_one {
+  display: flex;
+}
+.produc_four_p {
+  margin-left: 64px;
+  margin-top: -27px;
+  margin-bottom: 50px;
+}
+.product_four_p2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(54, 56, 57, 0.346);
+}
+.produc_four_h3 {
+  font-family: "Roboto";
+
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 3px;
+}
+.produc_four_p {
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.produc_four_spn {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.person_img {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.simple {
+  background-color: #f2ceda;
+  display: flex;
+}
+.simple_right {
+  width: 550px;
+  height: 450px;
+
+  margin-left: 150px;
+  margin-top: 90px;
+}
+
+.smal {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.simple_h2 {
+  font-family: "Roboto";
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.simple_p {
+  font-family: "Roboto";
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  color: rgb(126, 126, 118);
+  margin-bottom: 31px;
+}
+.smal_p {
+  font-family: "Roboto";
+  font-size: 22px;
+  color: rgb(66, 62, 62);
+  margin-left: 15px;
+}
+
+.title {
+  width: 522px;
+  height: 123px;
+
+  text-align: center;
+  margin: 150px auto 36px;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 29px;
+}
+.inp_section {
+  width: 640px;
+  height: 340px;
+
+ 
+}
+.inp_one {
+  width: 200px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ffa3a3;
+}
+.inp_two {
+  width: 200  px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ffa3a3;
+}
+.inp_three {
+  width: 400px;
+  height: 70px;
+  border: none;
+  outline: none;
+  border: 1px solid#FFA3A3;
+  margin-top: 20px;
+  border-radius: 5px;
+  
+}
+
+.inputs {
+  margin-left: 15px;
+  gap: 10px;
+}
+.inp_btn {
+  width: 130px;
+  height: 70px;
+  background-color: #d23166;
+  color: azure;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+}
+.smal_inp {
+  display: flex;
+}
+
+.footer {
+  background-color: black;
+  
+  height: 360px;
+  display: flex;
+}
+
+.footer_str {
+  color: azure;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.footer_p {
+  color: azure;
+  font-family: "Roboto";
+  width: 207px;
+  height: 47px;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.footer_title_two {
+  width: 80px;
+  color: azure;
+ 
+  margin-top: 90px;
+}
+
+.footer_title {
+  margin-top: 70px;
+}
+.footer_li {
+  margin: 10px;
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #d0dfec;
+  width: 150px;
+}
+
+.footer_title_three {
+  margin-top: 90px;
+  margin-left: 130px;
+}
+
+.end_p {
+  color: azure;
+  font-family: "Roboto";
+  font-size: 14px;
+  margin-bottom: 13px;
+}
+.footeer_end {
+  max-width: 300px;
+  margin-top: 100px;
+  
+}
+.end_inp {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #d23166;
+}
+.footeer_end_btn {
+  width: 100px;
+  height: 50px;
+  color: azure;
+  background-color: #d23166;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.endd_inp {
+  display: flex;
+}
